@@ -1,5 +1,6 @@
 data_science_project_dsai/
   .env.example
+  .gitattributes
   .github/workflows/ci.yml
   .gitignore
   LICENSE
@@ -54,6 +55,7 @@ data_science_project_dsai/
   reports/api_smoke.json
   reports/data_dictionary.csv
   reports/data_quality.json
+  reports/directory_tree.txt
   reports/drift.json
   reports/eda_country.csv
   reports/eda_country_experience_level.csv
@@ -145,6 +147,7 @@ data_science_project_dsai/
   reports/experiments/skills_temporal_importance.csv
   reports/experiments/skills_temporal_labels.csv
   reports/experiments/skills_temporal_split.csv
+  reports/figures/app_dashboard.jpg
   reports/figures/correlations.png
   reports/figures/country_salary.png
   reports/figures/remote_trends.png
@@ -153,6 +156,7 @@ data_science_project_dsai/
   reports/final_report.md
   reports/leakage_audit.json
   reports/model_comparison.csv
+  reports/quality_audit.json
   reports/sklearn_import.log
   reports/test_results.xml
   reports/trends_reconciliation.csv

@@ -19,12 +19,12 @@
   ],
   "git_status": {
     "exit_code": 0,
-    "output": "M README.md\n?? .env.example\n?? .github/\n?? .gitignore\n?? LICENSE\n?? api/\n?? app/\n?? data/\n?? docs/\n?? models/\n?? notebooks/\n?? pyproject.toml\n?? reports/\n?? requirements.lock.txt\n?? requirements.txt\n?? scripts/\n?? src/\n?? tests/"
+    "output": ""
   },
   "git_remote": {
     "exit_code": 0,
     "output": "origin\thttps://github.com/AlMoatasimTaha/data_science_project_dsai-.git (fetch)\norigin\thttps://github.com/AlMoatasimTaha/data_science_project_dsai-.git (push)"
   },
-  "project_files": 177,
+  "project_files": 181,
   "note": "Project files enumerated within root; runtime executables supplied externally. Virtual environment and wheel cache are local and ignored."
 }

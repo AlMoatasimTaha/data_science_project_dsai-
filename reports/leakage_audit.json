@@ -1,0 +1,127 @@
+{
+  "salary": {
+    "target": "salary_mid_usd",
+    "features": [
+      "job_title",
+      "company_type",
+      "industry",
+      "country",
+      "company_size",
+      "posted_year",
+      "experience_level",
+      "remote_type"
+    ],
+    "excluded": [
+      "salary_min_usd",
+      "salary_max_usd",
+      "salary_width_usd",
+      "job_id",
+      "city",
+      "min_experience_years"
+    ],
+    "preprocessing": "Fit inside each training fold only",
+    "aggregates": "Country trends excluded",
+    "id_policy": "job_id used for split integrity only"
+  },
+  "experience": {
+    "target": "experience_level",
+    "features": [
+      "job_title",
+      "company_type",
+      "industry",
+      "country",
+      "company_size",
+      "posted_year",
+      "remote_type"
+    ],
+    "excluded": [
+      "experience_level",
+      "min_experience_years",
+      "salary_min_usd",
+      "salary_max_usd",
+      "salary_mid_usd",
+      "salary_width_usd",
+      "job_id",
+      "city"
+    ],
+    "preprocessing": "Fit inside each training fold only",
+    "aggregates": "Country trends excluded",
+    "id_policy": "job_id used for split integrity only"
+  },
+  "remote": {
+    "target": "remote_type",
+    "features": [
+      "job_title",
+      "company_type",
+      "industry",
+      "country",
+      "company_size",
+      "posted_year",
+      "experience_level"
+    ],
+    "excluded": [
+      "remote_type",
+      "city",
+      "job_id",
+      "salary_min_usd",
+      "salary_max_usd",
+      "salary_mid_usd",
+      "salary_width_usd",
+      "min_experience_years"
+    ],
+    "preprocessing": "Fit inside each training fold only",
+    "aggregates": "Country trends excluded",
+    "id_policy": "job_id used for split integrity only"
+  },
+  "skills": {
+    "target": "skills",
+    "features": [
+      "job_title",
+      "company_type",
+      "industry",
+      "country",
+      "company_size",
+      "posted_year",
+      "experience_level",
+      "remote_type"
+    ],
+    "excluded": [
+      "job_id",
+      "skill",
+      "skill_category",
+      "skill_level",
+      "city",
+      "min_experience_years",
+      "salary_min_usd",
+      "salary_max_usd"
+    ],
+    "preprocessing": "Fit inside each training fold only",
+    "aggregates": "Country trends excluded",
+    "id_policy": "job_id used for split integrity only"
+  },
+  "salary_width": {
+    "target": "salary_width_usd",
+    "features": [
+      "job_title",
+      "company_type",
+      "industry",
+      "country",
+      "company_size",
+      "posted_year",
+      "experience_level",
+      "remote_type"
+    ],
+    "excluded": [
+      "salary_min_usd",
+      "salary_max_usd",
+      "salary_mid_usd",
+      "salary_width_usd",
+      "job_id",
+      "city",
+      "min_experience_years"
+    ],
+    "preprocessing": "Fit inside each training fold only",
+    "aggregates": "Country trends excluded",
+    "id_policy": "job_id used for split integrity only"
+  }
+}

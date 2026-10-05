@@ -1,0 +1,35 @@
+name: Validate project
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.lock.txt
+      - run: pip install -e . --no-deps
+      - run: job-market prepare
+      - run: job-market analyze
+      - run: pytest -q
+  full-training:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.lock.txt
+      - run: pip install -e . --no-deps
+      - run: job-market all
+      - run: pytest -q
+      - uses: actions/upload-artifact@v4
+        with:
+          name: trained-models-and-reports
+          path: |
+            models/
+            reports/
+          retention-days: 14

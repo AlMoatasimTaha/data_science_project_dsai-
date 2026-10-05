@@ -1,0 +1,79 @@
+{
+  "task": "skills",
+  "split": "random",
+  "family": "baseline",
+  "features": [
+    "job_title",
+    "company_type",
+    "industry",
+    "country",
+    "company_size",
+    "posted_year",
+    "experience_level",
+    "remote_type"
+  ],
+  "excluded": [
+    "job_id",
+    "skill",
+    "skill_category",
+    "skill_level",
+    "city",
+    "min_experience_years",
+    "salary_min_usd",
+    "salary_max_usd"
+  ],
+  "labels": [
+    "AWS",
+    "Azure",
+    "Computer Vision",
+    "GCP",
+    "NLP",
+    "PyTorch",
+    "Python",
+    "R",
+    "SQL",
+    "Scikit-learn",
+    "TensorFlow"
+  ],
+  "metrics": {
+    "f1_micro": 0.43074542171782304,
+    "f1_macro": 0.263000160628625,
+    "hamming_loss": 0.4893569844789357,
+    "subset_accuracy": 0.0024390243902439024,
+    "average_precision_micro": 0.40624744798990864
+  },
+  "bootstrap_95": {
+    "metric": "f1_micro",
+    "low": 0.4175028309442925,
+    "high": 0.44502127597873625,
+    "replicates": 200,
+    "method": "IID holdout row bootstrap; not uncertainty of market provenance"
+  },
+  "cv_score": 0.439971838266626,
+  "baseline_cv": 0.439971838266626,
+  "baseline_test": {
+    "f1_micro": 0.43074542171782304,
+    "f1_macro": 0.263000160628625,
+    "hamming_loss": 0.4893569844789357,
+    "subset_accuracy": 0.0024390243902439024,
+    "average_precision_micro": 0.40624744798990864
+  },
+  "promotion_passed": false,
+  "status": "experimental_no_reliable_lift",
+  "interval_half_width": null,
+  "train_rows": 1640,
+  "test_rows": 410,
+  "search_rows": 1640,
+  "trials": 8,
+  "fit_years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "threshold": 0.5,
+  "elapsed_seconds": 19.19
+}

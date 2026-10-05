@@ -1,0 +1,30 @@
+{
+  "project_root_name": "data_science_project_dsai",
+  "root_is_git_toplevel": true,
+  "nested_git": [],
+  "escaped_project_paths": [],
+  "source_hashes_verified": {
+    "ai_jobs.csv": true,
+    "skills_demand.csv": true,
+    "country_ai_trends.csv": true,
+    "job_title_mapping.csv": true,
+    "data_dictionary.csv": true
+  },
+  "tasks": [
+    "salary",
+    "experience",
+    "remote",
+    "skills",
+    "salary_width"
+  ],
+  "git_status": {
+    "exit_code": 0,
+    "output": "M README.md\n?? .env.example\n?? .github/\n?? .gitignore\n?? LICENSE\n?? api/\n?? app/\n?? data/\n?? docs/\n?? models/\n?? notebooks/\n?? pyproject.toml\n?? reports/\n?? requirements.lock.txt\n?? requirements.txt\n?? scripts/\n?? src/\n?? tests/"
+  },
+  "git_remote": {
+    "exit_code": 0,
+    "output": "origin\thttps://github.com/AlMoatasimTaha/data_science_project_dsai-.git (fetch)\norigin\thttps://github.com/AlMoatasimTaha/data_science_project_dsai-.git (push)"
+  },
+  "project_files": 177,
+  "note": "Project files enumerated within root; runtime executables supplied externally. Virtual environment and wheel cache are local and ignored."
+}

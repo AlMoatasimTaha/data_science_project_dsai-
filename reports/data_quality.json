@@ -1,0 +1,109 @@
+{
+  "jobs": 50000,
+  "skills_rows": 224605,
+  "unique_skills_job_ids": 50000,
+  "matched_skill_rows": 9260,
+  "matched_jobs": 2050,
+  "matched_job_fraction": 0.041,
+  "orphan_skill_rows": 215345,
+  "missing_values": {
+    "ai_jobs": {
+      "job_id": 0,
+      "job_title": 0,
+      "company_type": 0,
+      "industry": 0,
+      "country": 0,
+      "city": 0,
+      "remote_type": 0,
+      "experience_level": 0,
+      "min_experience_years": 0,
+      "salary_min_usd": 0,
+      "salary_max_usd": 0,
+      "employment_type": 0,
+      "posted_year": 0,
+      "company_size": 0
+    },
+    "skills_demand": {
+      "job_id": 0,
+      "skill": 0,
+      "skill_category": 0,
+      "skill_level": 0
+    },
+    "country_ai_trends": {
+      "country": 0,
+      "year": 0,
+      "total_ai_jobs": 0,
+      "avg_salary_usd": 0,
+      "remote_percentage": 0,
+      "top_skill": 0
+    },
+    "job_title_mapping": {
+      "job_title": 0,
+      "standardized_title": 0,
+      "role_category": 0
+    },
+    "data_dictionary": {
+      "file": 0,
+      "column": 0,
+      "description": 0
+    }
+  },
+  "duplicates": {
+    "ai_jobs": 0,
+    "skills_demand": 0,
+    "country_ai_trends": 0,
+    "job_title_mapping": 0,
+    "data_dictionary": 0
+  },
+  "experience_years_mapping": {
+    "0": {
+      "Entry": 16628,
+      "Mid": 0,
+      "Senior": 0
+    },
+    "2": {
+      "Entry": 0,
+      "Mid": 16695,
+      "Senior": 0
+    },
+    "5": {
+      "Entry": 0,
+      "Mid": 0,
+      "Senior": 16677
+    }
+  },
+  "city_remote_proxy": {
+    "false": {
+      "Hybrid": 16984,
+      "Onsite": 16538,
+      "Remote": 0
+    },
+    "true": {
+      "Hybrid": 0,
+      "Onsite": 0,
+      "Remote": 16478
+    }
+  },
+  "constant_columns": [
+    "employment_type"
+  ],
+  "year_counts": {
+    "2020": 7205,
+    "2021": 7128,
+    "2022": 7135,
+    "2023": 7035,
+    "2024": 7312,
+    "2025": 7043,
+    "2026": 7142
+  },
+  "joined_skill_coverage_by_year": {
+    "2020": 0.04205412907702984,
+    "2021": 0.0409652076318743,
+    "2022": 0.03854239663629993,
+    "2023": 0.03653162757640369,
+    "2024": 0.04294310722100656,
+    "2025": 0.04671304841686781,
+    "2026": 0.03920470456454775
+  },
+  "trends_count_matches": 0
+}

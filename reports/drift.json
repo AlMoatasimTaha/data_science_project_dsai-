@@ -1,0 +1,108 @@
+{
+  "reference": "2020\u20132024",
+  "current": "2026",
+  "features": [
+    {
+      "feature": "job_title",
+      "kind": "categorical",
+      "total_variation": 0.00911163590643023,
+      "unseen_levels": []
+    },
+    {
+      "feature": "company_type",
+      "kind": "categorical",
+      "total_variation": 0.014859576811090847,
+      "unseen_levels": []
+    },
+    {
+      "feature": "industry",
+      "kind": "categorical",
+      "total_variation": 0.0025485520917822163,
+      "unseen_levels": []
+    },
+    {
+      "feature": "country",
+      "kind": "categorical",
+      "total_variation": 0.006525631323699668,
+      "unseen_levels": []
+    },
+    {
+      "feature": "city",
+      "kind": "categorical",
+      "total_variation": 0.016971709647179152,
+      "unseen_levels": []
+    },
+    {
+      "feature": "remote_type",
+      "kind": "categorical",
+      "total_variation": 0.0044966836757532325,
+      "unseen_levels": []
+    },
+    {
+      "feature": "experience_level",
+      "kind": "categorical",
+      "total_variation": 0.002627745735742648,
+      "unseen_levels": []
+    },
+    {
+      "feature": "min_experience_years",
+      "kind": "numeric",
+      "ks_stat": 0.002627745735742759,
+      "p_value": 0.9999999999978922,
+      "psi": 2.1408517251877766e-05
+    },
+    {
+      "feature": "salary_min_usd",
+      "kind": "numeric",
+      "ks_stat": 0.007857434864820989,
+      "p_value": 0.8528452013212658,
+      "psi": 0.0011827345568635476
+    },
+    {
+      "feature": "salary_max_usd",
+      "kind": "numeric",
+      "ks_stat": 0.009687102421577276,
+      "p_value": 0.627692150981047,
+      "psi": 0.0016235556690089546
+    },
+    {
+      "feature": "employment_type",
+      "kind": "categorical",
+      "total_variation": 0.0,
+      "unseen_levels": []
+    },
+    {
+      "feature": "company_size",
+      "kind": "categorical",
+      "total_variation": 0.0038628491345249483,
+      "unseen_levels": []
+    },
+    {
+      "feature": "standardized_title",
+      "kind": "categorical",
+      "total_variation": 0.00911163590643023,
+      "unseen_levels": []
+    },
+    {
+      "feature": "role_category",
+      "kind": "categorical",
+      "total_variation": 0.003277323615285016,
+      "unseen_levels": []
+    },
+    {
+      "feature": "salary_mid_usd",
+      "kind": "numeric",
+      "ks_stat": 0.010699809176040187,
+      "p_value": 0.49958105319709223,
+      "psi": 0.0019076208453331623
+    },
+    {
+      "feature": "salary_width_usd",
+      "kind": "numeric",
+      "ks_stat": 0.01339767864144259,
+      "p_value": 0.23335254244256365,
+      "psi": 0.0012607529301300207
+    }
+  ],
+  "warning": "Year labels alone do not prove real historical collection. Distribution stability is not proof of external validity."
+}

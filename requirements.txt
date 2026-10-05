@@ -1,0 +1,16 @@
+pandas>=2.2,<4
+numpy>=1.26,<3
+scikit-learn==1.7.2
+scipy>=1.13,<2
+matplotlib>=3.9,<4
+seaborn>=0.13,<1
+joblib>=1.4,<2
+optuna>=4,<5
+streamlit>=1.40,<2
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+httpx>=0.27,<1
+pytest>=8,<10
+requests>=2.32,<3
+kaggle>=1.7,<3
+nbformat>=5.10,<6

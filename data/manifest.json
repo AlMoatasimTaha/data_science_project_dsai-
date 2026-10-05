@@ -1,0 +1,33 @@
+{
+  "dataset": "mann14/global-ai-and-data-science-job-market-20202026",
+  "version": 3,
+  "retrieved_utc": "2026-10-05T09:33:09.747849+00:00",
+  "license": "CC BY 4.0",
+  "files": {
+    "ai_jobs.csv": {
+      "sha256": "0c11df47b1df3cce6bcbf2c13041cc8a8c1abd486439fe840e22b2c706677f8a",
+      "bytes": 5496296,
+      "rows": 50000
+    },
+    "skills_demand.csv": {
+      "sha256": "940cdf2f764186e03809959e4a5f734c34804877a905fc5e38d3be5f4578f074",
+      "bytes": 8036488,
+      "rows": 224605
+    },
+    "country_ai_trends.csv": {
+      "sha256": "5cfedd566ce4d85002491fc0f6d9b01a87b0d3e7ff1be49a5ad64736d0b9842e",
+      "bytes": 1489,
+      "rows": 42
+    },
+    "job_title_mapping.csv": {
+      "sha256": "6343f65a73f26a63343ffe885e8f31f66441c781e3afc7d519edbf753e00f94c",
+      "bytes": 309,
+      "rows": 6
+    },
+    "data_dictionary.csv": {
+      "sha256": "c29cf9ff7f3f1946407a31ece025e9b6e2e70a6436e50be703f0ddfbf409b472",
+      "bytes": 677,
+      "rows": 13
+    }
+  }
+}

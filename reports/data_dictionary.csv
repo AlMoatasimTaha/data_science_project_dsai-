@@ -1,0 +1,31 @@
+table,column,dtype,nulls,unique,description,examples
+ai_jobs,job_id,str,0,50000,Unique job identifier,0IFD0TVBDIVU; ZMF8MDD4V30T; CX1945NQ4FMY; QJ7YHL1C32OC; F0T0PVN9ER14
+ai_jobs,job_title,str,0,6,Original job title,MLOps Engineer; Data Analyst; Applied Scientist; Machine Learning Engineer; AI Researcher
+ai_jobs,company_type,str,0,3,"Startup, MNC, or Research Lab",Research Lab; Startup; MNC
+ai_jobs,industry,str,0,5,Industry sector,Education; Tech; Healthcare; Finance; Retail
+ai_jobs,country,str,0,6,Country of job posting,Australia; Germany; Canada; USA; India
+ai_jobs,city,str,0,24,See docs/data_dictionary.md for semantics,Remote; Sydney; Seattle; Austin; Chennai
+ai_jobs,remote_type,str,0,3,Remote / Hybrid / Onsite,Remote; Hybrid; Onsite
+ai_jobs,experience_level,str,0,3,"Entry, Mid, or Senior",Entry; Senior; Mid
+ai_jobs,min_experience_years,int64,0,3,See docs/data_dictionary.md for semantics,0; 5; 2
+ai_jobs,salary_min_usd,int64,0,30192,Minimum annual salary in USD,56873; 54803; 149980; 53483; 102977
+ai_jobs,salary_max_usd,int64,0,36463,Maximum annual salary in USD,72223; 85599; 175806; 86477; 127298
+ai_jobs,employment_type,str,0,1,See docs/data_dictionary.md for semantics,Full-time
+ai_jobs,posted_year,int64,0,7,Year job was posted,2023; 2024; 2021; 2020; 2025
+ai_jobs,company_size,str,0,3,See docs/data_dictionary.md for semantics,Large; Medium; Small
+skills_demand,job_id,str,0,50000,See docs/data_dictionary.md for semantics,E0IFD0TVBDIV; ZMF8MDD4V30T; CX1945NQ4FMY; QJ7YHL1C32OC; JIUJV6OH9SDB
+skills_demand,skill,str,0,11,Required technical skill,R; Computer Vision; NLP; SQL; Python
+skills_demand,skill_category,str,0,3,"Programming, ML, or Cloud",Programming; ML; Cloud
+skills_demand,skill_level,str,0,3,See docs/data_dictionary.md for semantics,Advanced; Basic; Intermediate
+country_ai_trends,country,str,0,6,See docs/data_dictionary.md for semantics,USA; India; Germany; UK; Canada
+country_ai_trends,year,int64,0,7,See docs/data_dictionary.md for semantics,2020; 2021; 2022; 2023; 2024
+country_ai_trends,total_ai_jobs,int64,0,42,See docs/data_dictionary.md for semantics,78050; 5322; 55204; 42906; 18847
+country_ai_trends,avg_salary_usd,int64,0,42,See docs/data_dictionary.md for semantics,109581; 116022; 157026; 139108; 103070
+country_ai_trends,remote_percentage,int64,0,29,Percent of remote AI jobs,81; 30; 39; 25; 63
+country_ai_trends,top_skill,str,0,11,See docs/data_dictionary.md for semantics,Python; GCP; AWS; Computer Vision; Scikit-learn
+job_title_mapping,job_title,str,0,6,See docs/data_dictionary.md for semantics,Data Scientist; Machine Learning Engineer; AI Researcher; Data Analyst; Applied Scientist
+job_title_mapping,standardized_title,str,0,6,See docs/data_dictionary.md for semantics,Data Scientist; Machine Learning Engineer; AI Researcher; Data Analyst; Applied Scientist
+job_title_mapping,role_category,str,0,2,See docs/data_dictionary.md for semantics,Analytics; Engineering
+data_dictionary,file,str,0,3,See docs/data_dictionary.md for semantics,ai_jobs.csv; skills_demand.csv; country_ai_trends.csv
+data_dictionary,column,str,0,13,See docs/data_dictionary.md for semantics,job_id; job_title; company_type; industry; country
+data_dictionary,description,str,0,13,See docs/data_dictionary.md for semantics,"Unique job identifier; Original job title; Startup, MNC, or Research Lab; Industry sector; Country of job posting"

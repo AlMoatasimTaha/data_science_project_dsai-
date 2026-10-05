@@ -1,0 +1,5 @@
+Source: [Global AI & Data Science Job Market (2020–2026)](https://www.kaggle.com/datasets/mann14/global-ai-and-data-science-job-market-20202026), Mann Raval (mann14), Kaggle version 3, last updated 2026-01-04. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+Downloaded without authentication from the public Kaggle API on 2026-10-05. Raw CSV files remain unmodified. `manifest.json` records SHA-256 hashes. Processed files and the SQLite database are derived works; run `job-market prepare` to recreate them. Code is MIT; data retains CC BY 4.0. Dataset provenance does not establish that these records are verified real postings. The regular salary/experience structure, limited vocabulary and broken skill relationships require treating it as an educational dataset.
+
+Do not repair skill IDs by row position, fuzzy matching or invented links. Only exact keys enter supervised skills experiments. Unmatched skills are quarantined. Missing skill records are unknown labels, never negatives. Country trend aggregates are supplied separately and do not reconcile with observed job counts; they never enter predictive features.

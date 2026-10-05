@@ -1,0 +1,75 @@
+{
+  "task": "salary_width",
+  "split": "temporal",
+  "family": "baseline",
+  "features": [
+    "job_title",
+    "company_type",
+    "industry",
+    "country",
+    "company_size",
+    "posted_year",
+    "experience_level",
+    "remote_type"
+  ],
+  "excluded": [
+    "salary_min_usd",
+    "salary_max_usd",
+    "salary_mid_usd",
+    "salary_width_usd",
+    "job_id",
+    "city",
+    "min_experience_years"
+  ],
+  "labels": null,
+  "metrics": {
+    "mae": 7019.0236628395405,
+    "rmse": 8436.893967075644,
+    "r2": -0.00016911539743769133,
+    "interval_coverage_90": 0.905068608232988,
+    "interval_half_width": 14117.0
+  },
+  "bootstrap_95": {
+    "metric": "mae",
+    "low": 6907.645964015682,
+    "high": 7132.609423130775,
+    "replicates": 200,
+    "method": "IID holdout row bootstrap; not uncertainty of market provenance"
+  },
+  "cv_score": -7071.242604972892,
+  "baseline_cv": -7071.242604972892,
+  "baseline_test": {
+    "mae": 7019.0236628395405,
+    "rmse": 8436.893967075644,
+    "r2": -0.00016911539743769133,
+    "interval_coverage_90": 0.905068608232988,
+    "interval_half_width": 14117.0
+  },
+  "promotion_passed": false,
+  "status": "experimental_no_reliable_lift",
+  "interval_half_width": 14117.0,
+  "train_rows": 35815,
+  "test_rows": 7142,
+  "search_rows": 6000,
+  "trials": 8,
+  "fit_years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "threshold": 0.5,
+  "elapsed_seconds": 26.81,
+  "domain_baseline": {
+    "family": "experience_median_baseline",
+    "cv_score": -7063.885197322219,
+    "metrics": {
+      "mae": 7020.755950714086,
+      "rmse": 8438.784618156207,
+      "r2": -0.000617427940669879
+    },
+    "method": "Training-only median advertised target by known experience; no test feedback to model selection"
+  },
+  "global_baseline_promotion_passed": false
+}

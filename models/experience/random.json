@@ -1,0 +1,63 @@
+{
+  "task": "experience",
+  "split": "random",
+  "family": "automl_forest",
+  "features": [
+    "job_title",
+    "company_type",
+    "industry",
+    "country",
+    "company_size",
+    "posted_year",
+    "remote_type"
+  ],
+  "excluded": [
+    "experience_level",
+    "min_experience_years",
+    "salary_min_usd",
+    "salary_max_usd",
+    "salary_mid_usd",
+    "salary_width_usd",
+    "job_id",
+    "city"
+  ],
+  "labels": null,
+  "metrics": {
+    "accuracy": 0.3434,
+    "balanced_accuracy": 0.34338155588853153,
+    "f1_macro": 0.3432338742644055,
+    "multiclass_brier": 0.6670005321392187
+  },
+  "bootstrap_95": {
+    "metric": "f1_macro",
+    "low": 0.33369178937070726,
+    "high": 0.35222344274770373,
+    "replicates": 200,
+    "method": "IID holdout row bootstrap; not uncertainty of market provenance"
+  },
+  "cv_score": 0.3361065914243104,
+  "baseline_cv": 0.32976454633056895,
+  "baseline_test": {
+    "accuracy": 0.3373,
+    "balanced_accuracy": 0.33729550038378914,
+    "f1_macro": 0.3372917645425197
+  },
+  "promotion_passed": false,
+  "status": "experimental_no_reliable_lift",
+  "interval_half_width": null,
+  "train_rows": 40000,
+  "test_rows": 10000,
+  "search_rows": 6000,
+  "trials": 8,
+  "fit_years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "threshold": 0.5,
+  "elapsed_seconds": 43.11
+}

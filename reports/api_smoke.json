@@ -1,0 +1,120 @@
+{
+  "salary": {
+    "task": "salary",
+    "model": "automl_forest",
+    "status": "experimental_no_reliable_lift",
+    "warning": "Educational dataset with unverified market provenance; predictions describe this dataset only. Model did not pass the baseline improvement gate.",
+    "validation": {
+      "mae": 3563.9550675187033,
+      "rmse": 4250.457581576437,
+      "r2": 0.9868027496021076,
+      "interval_coverage_90": 0.9054886586390367,
+      "interval_half_width": 7061.86863009003
+    },
+    "prediction_usd": 107557.13562275501,
+    "interval_90_usd": [
+      100495.26699266498,
+      114619.00425284504
+    ],
+    "interval_note": "Calibrated on 2025; nominal 90% requires exchangeability. This estimates advertised values, not personal compensation."
+  },
+  "experience": {
+    "task": "experience",
+    "model": "automl_forest",
+    "status": "experimental_no_reliable_lift",
+    "warning": "Educational dataset with unverified market provenance; predictions describe this dataset only. Model did not pass the baseline improvement gate.",
+    "validation": {
+      "accuracy": 0.33394007280873705,
+      "balanced_accuracy": 0.33384379779513734,
+      "f1_macro": 0.3330252656091101,
+      "multiclass_brier": 0.6668480874456065
+    },
+    "prediction": "Mid",
+    "probabilities": {
+      "Entry": 0.3272853930167968,
+      "Mid": 0.33990253118940894,
+      "Senior": 0.33281207579379435
+    }
+  },
+  "remote": {
+    "task": "remote",
+    "model": "forest",
+    "status": "experimental_no_reliable_lift",
+    "warning": "Educational dataset with unverified market provenance; predictions describe this dataset only. Model did not pass the baseline improvement gate.",
+    "validation": {
+      "accuracy": 0.3427611313357603,
+      "balanced_accuracy": 0.341579277270082,
+      "f1_macro": 0.340063183612481,
+      "multiclass_brier": 0.6674377335031664
+    },
+    "prediction": "Hybrid",
+    "probabilities": {
+      "Hybrid": 0.37084432455851013,
+      "Onsite": 0.31036862956866684,
+      "Remote": 0.3187870458728229
+    }
+  },
+  "skills": {
+    "task": "skills",
+    "model": "baseline",
+    "status": "experimental_no_reliable_lift",
+    "warning": "Educational dataset with unverified market provenance; predictions describe this dataset only. Only 4.1% of jobs have matched skill records; predictions are exploratory. Model did not pass the baseline improvement gate.",
+    "validation": {
+      "f1_micro": 0.4472700074794316,
+      "f1_macro": 0.2717780205944076,
+      "hamming_loss": 0.4798701298701299,
+      "subset_accuracy": 0.0035714285714285713,
+      "average_precision_micro": 0.42751682274641456
+    },
+    "skills": [
+      "GCP",
+      "NLP",
+      "Python",
+      "R",
+      "TensorFlow"
+    ],
+    "probabilities": {
+      "AWS": 0.4066620402498265,
+      "Azure": 0.4122137404580153,
+      "Computer Vision": 0.3934767522553782,
+      "GCP": 0.4226231783483692,
+      "NLP": 0.41568355308813326,
+      "PyTorch": 0.3830673143650243,
+      "Python": 0.41568355308813326,
+      "R": 0.42886884108258155,
+      "SQL": 0.4073560027758501,
+      "Scikit-learn": 0.4066620402498265,
+      "TensorFlow": 0.4170714781401804
+    }
+  },
+  "salary_width": {
+    "task": "salary_width",
+    "model": "baseline",
+    "status": "experimental_no_reliable_lift",
+    "warning": "Educational dataset with unverified market provenance; predictions describe this dataset only. Model did not pass the baseline improvement gate.",
+    "validation": {
+      "mae": 7019.0236628395405,
+      "rmse": 8436.893967075644,
+      "r2": -0.00016911539743769133,
+      "interval_coverage_90": 0.905068608232988,
+      "interval_half_width": 14117.0
+    },
+    "prediction_usd": 20004.0,
+    "interval_90_usd": [
+      5887.0,
+      34121.0
+    ],
+    "interval_note": "Calibrated on 2025; nominal 90% requires exchangeability. This estimates advertised values, not personal compensation."
+  },
+  "health": {
+    "status": "ok",
+    "models_available": [
+      "salary",
+      "experience",
+      "remote",
+      "skills",
+      "salary_width"
+    ],
+    "ready": true
+  }
+}
